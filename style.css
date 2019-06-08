@@ -1,0 +1,379 @@
+/*Start Main things*/
+body {
+    margin: 0;
+    overflow-x: hidden;
+    
+}
+.hoc {
+    margin: auto;
+    width: 80%;
+}
+.left-fl {
+    float: left;
+}
+.right-fl {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+ul {
+    list-style: none;
+    display:inline-block;
+    margin: 0;
+    padding: 0;
+}
+ 
+li {
+    display: inline-block;
+}
+
+/*End Main things*/
+
+/*Start Navigation TopBar*/
+
+.topBar {
+    width: 100%;
+    height: 40px;
+    background-color: #141414;
+    border-top: 5px solid #A3D044;
+    padding-top: 15px;
+    
+}
+
+.topBar i {
+    color: #A3D044;
+    
+}
+.topBar li {
+    color:#7F7F7F;
+    margin-left: 8px;
+    padding-right: 15px;
+    border-right: .2px solid #7F7F7F;
+    cursor: pointer;
+    
+}
+
+.topBar .right-fl li i {
+    margin-right: 5px;
+    cursor: text;
+} 
+.topBar .right-fl li{
+    cursor: text;
+}
+/*End Navigation TopBar*/
+
+/*Start Nav Med*/
+
+.medNav {
+    color: #FFFFFF;
+    width: 100%;
+    height: 90px;
+    background-color: #262626;
+    
+}
+
+.medNav h1 , .medNav p {
+    margin: 0;
+   
+}
+
+.medNav h1 {
+    line-height: 1.6;
+     text-transform: uppercase;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    cursor: pointer;
+}
+
+.medNav li {
+    margin: 20px 35px 0px 0px;
+    font-size: 20px;
+    line-height: 1.6;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+.medNav li:hover {
+    color: #A3D044;
+    text-decoration: underline;
+}
+/*End Nav Med*/
+
+/*Start Nav Last*/
+
+.lastNav {
+    height: 600px;
+    background-image: url( outdoor_restaurant_at_sunset-wallpaper-1280x800.jpg);
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+.opaci {
+    width: 100%;
+    height: 100%;
+    opacity: .6;
+    background-color: black;
+}
+
+.inside {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    
+    
+}
+
+.inside h1 {
+   color:#A3D044;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 100px;
+    margin-bottom: 23px;
+}
+
+.inside p {
+    max-width: 80%;
+    margin-left: 120px;
+    line-height: 1.3;
+    font-size: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+color:darkgray;
+}
+
+.btn {
+    
+    width:400px;
+    height: 90px;
+    position: absolute;
+    top:66%;
+    left:36%;
+}
+
+.btn1 , .btn2 {
+    background: none;
+    color:darkgray;
+    padding: 20px;
+    margin-right: 10px;
+    
+}
+
+.btn2 {
+    background: #A3D044; 
+    color: black;
+}
+.btn2:hover {
+    background: none;
+    color:darkgray;
+}
+.btn1:hover {
+    background: #A3D044; 
+    color: black;
+}
+
+
+/*End Nav Last*/
+
+/*Start FeaturesA*/
+
+.featuresA {
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    background-color:#252525;
+    padding-top: 60px;
+    padding-left: 65px;
+    padding-bottom: 40px;
+    color:white;
+}
+.featuresA .hoc div {
+    margin: 0;
+}
+
+.featuresA .hoc div h3 {
+    margin-bottom: 7px;
+    margin-top: 0;
+    font-size: 25px;
+}
+
+
+.featuresA .hoc div {
+    float: left;
+    max-width: 25%;
+    border: 1px solid #A3D044;
+    margin: 13px;
+    padding: 20px;
+    border-top-right-radius: 40px;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+.featuresA p {
+    margin-top: 5px;
+font-family: "Comic Sans MS", cursive, sans-serif
+   
+}
+
+.featuresA .hoc div:hover {
+    color:black;
+    background-color: #A3D044;
+    border-bottom-left-radius: 50px;
+}
+
+#headr {
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    color:#252525;
+    font-size: 55px;
+    
+}
+
+/*End featuresB*/
+
+/*Start featuresB*/
+
+.featuresB {
+    
+    width: 100%;
+    height: 700px;
+    margin-top: 30px;
+    
+    
+}
+
+
+.featuresB .hoc .m-left {
+    width: 50%;
+    height: 700px;
+    border-right: 1px solid;
+}
+
+
+ 
+.featuresB .hoc  .rowA > div ,
+.featuresB .hoc  .rowB > div ,
+.featuresB .hoc  .rowC > div
+{
+    float:left;
+    padding: 15px;
+    max-width: 49%;
+}
+
+.featuresB .hoc .m-right
+{
+    width:49%;
+    height:700px;
+    
+    
+}
+
+
+
+
+.featuresB .hoc img {
+    width: 200px;
+    height:200px;
+    border:1px solid;
+    border-radius: 50%;
+}
+.featuresB .hoc p {
+    color:#252525;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.featuresB .hoc h1,
+.m-right h1
+{
+    margin-bottom: 5px;
+    color: #252525;
+    max-width:50%;
+    
+}
+
+.buy {
+    background: #252525;
+    color: #A3D044;
+    padding: 15px 10px;
+    margin-top: 10px;
+    width:80px;
+    border-top-right-radius: 20px;
+}
+.buy:hover{
+    background: #A3D044;
+    color: black;
+    cursor: pointer;
+}
+/*End featuresB*/
+
+
+/*Start Location*/
+
+.Location {
+    height: 550px;
+    width: 100%;
+}
+.Location p {
+    color:#252525;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/*End Location*/
+
+/*Start our Team*/
+
+.team {
+    width: 100%;
+    height: 550px;
+    background-color:#252525;
+    padding-top: 30px;
+}
+
+.img-team {
+    margin-left: 75px;
+}
+.img-team img {
+    float: left;
+    width: 200px;
+    height:250px;
+    border:1px solid;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.c-btn {
+    width:200px;
+    height:60px;
+    background: #A3D044;
+    margin-top: 45px;
+    margin-left: 40%;
+    
+}
+.c-btn:hover  {
+    background: yellow;
+    cursor: pointer;
+}
+/*End our team*/
+
+
+
+/*Start footer*/
+
+.foter {
+    width: 100%;
+    height: 70px;
+    background-color: #141414;
+    padding: 30px;
+}
+
+.foter li {
+    margin-left: 15px;
+}
+
+.foter li i:hover {
+    color:greenyellow;
+    cursor: pointer;
+}
+/*End footer*/
+
+
